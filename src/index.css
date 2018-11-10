@@ -1,0 +1,219 @@
+
+/* PokeApp styles */
+
+:root {
+  background: black;
+}
+
+
+body {
+  padding: 100px;
+  background: black;
+}
+
+
+p {
+  background: transparent;
+  color: cyan;
+  margin: 20px;
+  padding: 0px;
+  text-align: center; 
+}
+
+
+.App {
+  color: cyan;
+  background: black;
+}
+
+
+/****search bar****/
+.search {
+  background: black;
+  text-align: center;
+}
+
+
+
+/****Suggestions that appear below search bar*****/
+.search
+ul li {
+list-style: none;
+padding: 25px;
+cursor: pointer;
+text-transform: capitalize;
+text-align: center;
+}
+
+
+/**text put in search bar**/
+.search 
+input {
+  height: 40px;
+  width: 80%;
+  margin-bottom: 25px;
+  color: cyan;
+  text-align: center;
+  cursor: pointer;
+  background: rgb(53, 58, 68);
+}
+
+
+.search 
+ul li:hover {
+background-color: rgb(56, 56, 56); 
+border-radius: 100px;
+text-align: center;
+}
+
+input {
+  color: black;
+}
+
+
+.result {
+  background: rgb(32, 32, 32); 
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+.results {
+  margin: 10px;
+  padding: 10px;
+  text-transform: capitalize; 
+  border: none;
+  text-align: center;
+}
+
+h1 {
+  color: cyan;
+  font-style: italic;
+  margin: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+
+.types  {
+    color: cyan;
+    font-size: 30px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+
+}
+
+
+.held_items {
+    color: cyan;
+    font-size: center;
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px;
+}
+
+
+.game_indices {
+  color: cyan;
+  font-size: 30px;
+  font-style: italic;
+  margin: 10px; 
+}
+
+
+/************
+Media Queries
+*************/
+
+
+/* Phone screen query */
+
+@media only screen and (max-width: 576px) {
+  p { 
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 35px;
+    color: pink;
+  }
+
+
+  .types {
+    font-size: 25px;
+    color: pink;
+    text-align: center;
+    margin: 5px;
+  }
+
+
+  .held_items {
+    font-size: 20px;
+    color: pink;
+    text-align: center;
+    margin: 10px;
+  }
+
+
+  .game_indices {
+    font-size: 20px;
+    color: pink;
+    text-align: center;
+    margin: 10px;
+  }
+
+
+  .results {
+    font-size: 15px;
+    color: pink;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .result {
+    text-align: center;
+    margin: 10px;
+  }
+
+
+}
+
+/* Tablet query */
+
+@media only screen and (min-width 770px) {
+
+
+  .types {
+    font-size: 25px;
+    color: pink;
+    text-align: center;
+    margin: 5px;
+  }
+
+
+  .held_items {
+    font-size: 20px;
+    color: pink;
+    text-align: center;
+    margin: 10px;
+  }
+
+
+  .game_indices {
+    font-size: 20px;
+    color: pink;
+    text-align: center;
+    margin: 10px;
+  }
+
+}
+
